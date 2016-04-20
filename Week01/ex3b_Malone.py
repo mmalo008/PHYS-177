@@ -46,4 +46,4 @@ f.close
 """
 
 ##Numpy method for saving text files
-np.savetxt('fall_data', (v,t))
+np.savetxt('fall_data', np.transpose([v,t]))
