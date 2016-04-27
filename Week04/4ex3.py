@@ -24,7 +24,7 @@ plt.savefig('function.png')
 
 #by inspection of graph, roots are at ~0,-2,2
 error = 1.e-10
-root = [-2,0,2]
+root = [-2,0,1.7]
 
 for i in range(3):
 	x0=root[i]+.01
